@@ -1,0 +1,129 @@
+
+.navigation{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_list{
+    margin-top: 20px;
+    display: flex;
+    gap: 40px;
+}
+a,li{
+    text-decoration: none;
+    list-style: none;
+}
+.menu_list-link{
+    white-space: nowrap;
+}
+.menu_list-link{
+font-size: 28px;
+color: rgba(62, 146, 209, 1);
+}
+#breaking{
+    color: rgba(255, 154, 64, 1);
+}
+#guid{
+    position: relative;
+    color: rgba(255, 90, 64, 1);
+}
+#guid::before{
+    content: " ";
+    position: absolute;
+    background-image: url(../img/iconGuid.svg);
+    width: 56px;
+    height: 56px;
+    left: -30px;
+    top: -24px;
+}
+.btnUser, .btnUserBurger{
+    background-color: transparent; /* Green */
+    border: none;
+}
+.menu_btn{
+    display: none;
+    border: none;
+    width: 80px;
+    background-color: transparent;
+}
+
+
+@media (max-width:900px) {
+   .menu_btn{
+    display:block;
+    flex-direction:column;
+   } 
+   
+   .menu_list{
+    display: none;
+   }
+   .btnUser{
+    display: none;
+   }
+   .navigation{
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30%;
+    }
+    .logo{
+        margin-top: 20px;
+    }
+    span{
+        display: block;
+        margin-top: 20px;
+        width: 100%;
+        height: 3px;
+        background-color: rgba(62, 146, 209, 1);
+    }
+}
+
+@media (max-width:600px) {
+    .menu_btn{
+     display:block;
+     flex-direction:column;
+    } 
+    
+    .menu_list{
+     display: none;
+    }
+    .btnUser{
+     display: none;
+    }
+    .navigation{
+     padding-top: 20px;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     gap: 25%;
+     }
+     .logo{
+         margin-top: 20px;
+     }
+     span{
+        display: block;
+        margin-top: 20px;
+        width: 80%;
+        height: 3px;
+        background-color: rgba(62, 146, 209, 1);
+    }
+    .container{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0 auto;
+    }
+
+ }
+
+ @media (900px <= width){
+    .btnUserBurger{
+        display: none;
+    }
+ }
+ @media (900px <= width ){
+    .burger-open{
+        visibility: hidden;
+    }
+ }
