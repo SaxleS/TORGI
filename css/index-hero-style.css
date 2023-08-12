@@ -20,6 +20,7 @@
     padding-top: 60px;
     gap: 5%;
     align-items: center;
+    
 }
 .btnJoin{
     z-index: 1;
@@ -30,6 +31,7 @@
     border-radius: 80px;
     background-color: rgba(62, 146, 209, 1);
     color: white;
+    /* box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10); */
 }
 .btnQuestion{
     z-index: 0;
@@ -40,6 +42,8 @@
     border-radius: 80px;
     color: rgba(62, 146, 209, 1);
     background-color: rgba(207, 235, 249, 1);
+    /* box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10); */
+
 }
 
 @media (width <= 900px){
