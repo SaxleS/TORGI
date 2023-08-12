@@ -44,10 +44,11 @@
     /* margin-left: 20px;
     margin-right: 20px; */
 }
-option{
+option,.search_date{
     text-align: center;
 }
-.iconLocation,.iconPeople{
+
+.iconLocation,.iconPeople,.iconDate{
     opacity: 0.5;
 }
 .search_separator{
