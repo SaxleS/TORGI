@@ -1,4 +1,4 @@
-@media (width <= 1050px){
+@media (width <= 900px){
     .search_select, .search_date {
         width:150px ;
     }
@@ -23,7 +23,7 @@
     display: flex;
     align-items: center;
     justify-content:space-evenly;
-    gap: 1%;
+    gap: 0.5%;
     width: 85%;
     height: 100px;
     border-radius: 80px;
@@ -34,7 +34,7 @@
 }
 .search_select, .search_date{
     position: relative;
-    min-width: 125px;
+    min-width: 100px;
     height: 50px;
     border: none;
     background: transparent;
@@ -55,21 +55,11 @@ option{
     height: 70px;
     background-color: rgba(207, 235, 249, 1);
 }
-/* #search_location::before{
-    z-index: 20;
-    content: "";
-    position: absolute;
-    background-image: url(../img/index-search/location-search.svg);
-    width: 28px;
-    height: 28px;
-    left: 0px;
-    top: 0px;
-} */
 .select_group{
     display: flex;
     flex-wrap: nowrap;
 }
-@media (width <= 1050px){
+@media (width <= 900px){
     .search_select, .search_date {
         width:150px ;
     }
