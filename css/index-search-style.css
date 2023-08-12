@@ -1,3 +1,18 @@
+@media (width <= 900px){
+    .search_select, .search_date {
+        width:150px ;
+    }
+    .search{
+        flex-direction: column;
+        height: 400px;
+        width: 250px;
+        border-radius: 55px;
+    }
+    .search_separator {
+        width: 70px;
+        height: 1px;
+    }
+}
 .row_search {
     display: flex;
 justify-content: center;
@@ -47,21 +62,7 @@ align-items: center;
     left: 0px;
     top: 0px;
 }
-@media (width <= 900px){
-    .search_select, .search_date {
-        width:150px ;
-    }
-    .search{
-        flex-direction: column;
-        height: 400px;
-        width: 250px;
-        border-radius: 55px;
-    }
-    .search_separator {
-        width: 70px;
-        height: 1px;
-    }
-}
+
 
 
 /* .btn_search{
