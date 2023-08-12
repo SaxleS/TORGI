@@ -29,12 +29,13 @@
     border-radius: 80px;
     background-color: white;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .search_select, .search_date{
+    -webkit-appearance: none;
     position: relative;
-    min-width: 100px;
+    min-width: 50px;
     height: 50px;
     border: none;
     background: transparent;
@@ -44,12 +45,13 @@
     /* margin-left: 20px;
     margin-right: 20px; */
 }
-option,.search_date{
+.search_select,.search_date{
     text-align: center;
 }
 
-.iconLocation,.iconPeople,.iconDate{
+.iconLocation,.iconPeople,.iconDate,.iconPrice{
     opacity: 0.5;
+    padding-right: 10px;
 }
 .search_separator{
     width: 1px;
