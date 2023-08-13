@@ -17,12 +17,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 1%;
 }
-.search{
+
+.search {
     z-index: 10;
     display: flex;
-    align-items:center;
-    justify-content:space-evenly;
+    align-items: center;
+    justify-content: space-evenly;
     gap: 0.5%;
     width: 85%;
     height: 100px;
@@ -32,7 +34,9 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-.search_select, .search_date{
+
+.search_select,
+.search_date {
     -webkit-appearance: none;
     position: relative;
     min-width: 50px;
@@ -45,39 +49,136 @@
     /* margin-left: 20px;
     margin-right: 20px; */
 }
-.search_select,.search_date{
+
+.search_select,
+.search_date {
     text-align: center;
 }
 
-.iconLocation,.iconPeople,.iconDate,.iconPrice{
+.iconLocation,
+.iconPeople,
+.iconDate,
+.iconPrice {
     opacity: 0.5;
     padding-right: 10px;
 }
-.search_separator{
+
+.search_separator {
     width: 1px;
     height: 70px;
     background-color: rgba(207, 235, 249, 1);
 }
-.select_group{
+
+.select_group {
     display: flex;
     flex-wrap: nowrap;
 }
-@media (width <= 900px){
-    .search_select, .search_date {
-        width:150px ;
+
+.buttons_group {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 5%;
+}
+
+.buttons-click {
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);
+
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+#btn_search::before{
+    position: absolute;
+    content: url(../img/index-search/search.svg);
+    width: 40px;
+    height: 40px;
+    left: 25px;
+    top: 30px;
+
+}
+#btn_settings::before{
+    position: absolute;
+    content: url(../img/index-search/settings.svg);
+    width: 40px;
+    height: 40px;
+    left: 135px;
+    top: 30px;
+}
+
+@media (width <=900px) {
+
+    .search_select,
+    .search_date {
+        width: 150px;
     }
-    .search{
+
+    .search {
         flex-direction: column;
         height: 450px;
         width: 350px;
         border-radius: 80px;
         padding-left: 20px;
     }
+
     .search_separator {
         padding-right: 200px;
         width: 70px;
         height: 1px;
     }
+
+    .row_search {
+        flex-direction: column;
+    }
+
+    .buttons {
+        position: relative;
+    }
+
+    .buttons_group {
+        position: relative;
+        flex-direction: column;
+        margin-top: 10px;
+        width: 450px;
+    }
+
+    .buttons-click {
+        width: 175px;
+        height: 100px;
+    }
+    #btn_search{
+        position: absolute;
+        height: 150px;
+        border-radius: 0 0 0 80px;
+        top: -90px;
+        left: 50px;
+    }
+    #btn_settings{
+        position: absolute;
+        height: 150px;
+        border-radius: 0 0 80px 0;
+        top: -90px;
+        left: 225px;  
+    }
+    #btn_search::before{
+        position: absolute;
+        content: url(../img/index-search/search.svg);
+        width: 40px;
+        height: 40px;
+        left: 90px;
+        top: 100px;
+    
+    }
+    #btn_settings::before{
+        position: absolute;
+        content: url(../img/index-search/settings.svg);
+        width: 40px;
+        height: 40px;
+        left: 50px;
+        top: 100px;
+    }
 }
-
-
