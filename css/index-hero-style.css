@@ -17,12 +17,16 @@
 }
 .btn_container{
     display: flex;
+    /* position: relative; */
     padding-top: 60px;
     gap: 5%;
     align-items: center;
     
 }
 .btnJoin{
+    /* position: absolute;
+    top: 50px;
+    left: 0px; */
     z-index: 1;
     background-color: aqua;
     width: 245px;
@@ -34,6 +38,9 @@
     /* box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10); */
 }
 .btnQuestion{
+    /* position: absolute;
+    top: 50px;
+    left: 150px; */
     z-index: 0;
     background-color:beige;
     width: 245px;
