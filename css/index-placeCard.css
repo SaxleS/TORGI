@@ -1,0 +1,18 @@
+.placeCard{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+
+
+/* textplace */
+
+.imgtest{
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    width: 300px;
+
+}

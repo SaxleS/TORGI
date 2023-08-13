@@ -1,8 +1,4 @@
-jQuery(document).ready(function($) {
-	$(window).on('load', function () {
-		var $preloader = $('.preloader'),
-		    $loader = $preloader.find('.preloader__loader');
-		$loader.fadeOut();
-		$preloader.delay(250).fadeOut(200);
-	});
+window.addEventListener("load", function(){
+    const preloader = document.querySelector(".preloader");
+    preloader.classList.add("hidden");
 });

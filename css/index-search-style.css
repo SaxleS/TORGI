@@ -18,6 +18,7 @@
     justify-content: center;
     align-items: center;
     gap: 1%;
+    padding-bottom: 50px;
 }
 
 .search {
@@ -39,7 +40,7 @@
 .search_date {
     -webkit-appearance: none;
     position: relative;
-    min-width: 50px;
+    min-width:50px;
     height: 50px;
     border: none;
     background: transparent;

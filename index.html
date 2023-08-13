@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/nav-style.css">
     <link rel="stylesheet" href="css/burger-style.css">
     <link rel="stylesheet" href="css/index-search-style.css">
+    <link rel="stylesheet" href="css/index-placeCard.css">
     <title>TORGI</title>
 </head>
 
@@ -23,10 +24,13 @@
             <img src="img/preloader/preloader.gif" alt="" />
         </div>
     </div> -->
-
-
-
-
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+    
+    
+    
+    
     <header class="header">
         <div class="container navigation">
             <img src="img/logo/TORGI.svg" alt="" class="logo">
@@ -36,114 +40,126 @@
                 </button>
                 <ul class="menu_list burger_list">
                     <li class="menu_list_item"><button href="" class="btnUserBurger"><img src="img/nav/User.svg"
-                                alt=""></button></li>
-                    <li class="menu_list_item"><a href="" class="menu_list-link">Home</a></li>
-                    <li class="menu_list_item"><a href="" class="menu_list-link">How it work</a></li>
-                    <li class="menu_list_item"><a href="" class="menu_list-link" id="breaking">Breaking</a></li>
-                    <li class="menu_list_item"><a href="" class="menu_list-link" id="guid">Guid</a></li>
-                </ul>
-
-            </nav>
-            <button href="" class="btnUser"><img src="img/nav/User.svg" alt=""></button>
-        </div>
-    </header>
-
-
-    <main>
-        <div class="container hero">
-            <section>
-                <h1 class="slogan">Free yourself from your holiday search</h1>
-                <h3 class="description">bid on bids and get the perfect deals for your taste and budget!</h3>
-                <div class="btn_container">
-                    <button class="btnJoin">Join</button>
-                    <button class="btnQuestion">How it works</button>
-                </div>
-
-            </section>
-            <section>
-                <div class="slider">
-                    <img src="testcard.png" alt="">
-                </div>
-            </section>
-        </div>
-
-        <div class="container row_search">
-            <div class="search">
-                <div class="select_group">
-                    <img class="iconLocation" src="img/index-search/location-search.svg" alt="">
-                    <select class="search_select " name="" id="search_location">
-                        <option>Where</option>
-                    </select>
-                </div>
-
-                <div class="search_separator"></div>
-                <div class="select_group">
-                    <img class="iconPrice" src="img/index-search/price-search.svg" alt="">
-                    <select class="search_select" name="" id="">
-                        <option>Tender price</option>
-                    </select>
-                </div>
-
-                <div class="search_separator"></div>
-                <div class="select_group">
-                    <img class="iconDate" src="img/index-search/date-search.svg" alt="">
-                    <input class="search_date" type="date" name="calendar">
-                </div>
-                <div class="search_separator"></div>
-                <div class="select_group">
-                    <img class="iconDate" src="img/index-search/date-search.svg" alt="">
-                    <input class="search_date" type="date" name="calendar" value="25.09.1993">
-                </div>
-                <div class="search_separator"></div>
-
-                <div class="select_group">
-                    <img class="iconPeople" src="img/index-search/people-search.svg" alt="">
-                    <select class="search_select" name="" id="">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5+</option>
-                    </select>
-                </div>
+                        alt=""></button></li>
+                        <li class="menu_list_item"><a href="" class="menu_list-link">Home</a></li>
+                        <li class="menu_list_item"><a href="" class="menu_list-link">How it work</a></li>
+                        <li class="menu_list_item"><a href="" class="menu_list-link" id="breaking">Breaking</a></li>
+                        <li class="menu_list_item"><a href="" class="menu_list-link" id="guid">Guid</a></li>
+                    </ul>
+                    
+                </nav>
+                <button href="" class="btnUser"><img src="img/nav/User.svg" alt=""></button>
             </div>
-            <div class="buttons">
-                <div class="buttons_group">
-                    <div class="buttons_item">
-                        <button class="buttons-click" id="btn_search"></button>
+        </header>
+        
+        
+        <main>
+            <div class="container hero">
+                <section>
+                    <h1 class="slogan">Free yourself from your holiday search</h1>
+                    <h3 class="description">bid on bids and get the perfect deals for your taste and budget!</h3>
+                    <div class="btn_container">
+                        <button class="btnJoin">Join</button>
+                        <button class="btnQuestion">How it works</button>
                     </div>
-                    <div class="buttons_item">
-                        <button class="buttons-click" id="btn_settings"></button>
+                    
+                </section>
+                <section>
+                    <div class="slider">
+                        <img class="imgtest" src="testcard.png" alt="">
+                    </div>
+                </section>
+            </div>
+            
+            <div class="container row_search">
+                <div class="search">
+                    <div class="select_group">
+                        <img class="iconLocation" src="img/index-search/location-search.svg" alt="">
+                        <select class="search_select " name="" id="search_location">
+                            <option>Where</option>
+                        </select>
+                    </div>
+                    
+                    <div class="search_separator"></div>
+                    <div class="select_group">
+                        <img class="iconPrice" src="img/index-search/price-search.svg" alt="">
+                        <select class="search_select" name="" id="">
+                            <option>Tender price</option>
+                        </select>
+                    </div>
+                    
+                    <div class="search_separator"></div>
+                    <div class="select_group">
+                        <img class="iconDate" src="img/index-search/date-search.svg" alt="">
+                        <input class="search_date" type="date" name="calendar">
+                    </div>
+                    <div class="search_separator"></div>
+                    <div class="select_group">
+                        <img class="iconDate" src="img/index-search/date-search.svg" alt="">
+                        <input class="search_date" type="date" name="calendar" value="25.09.1993">
+                    </div>
+                    <div class="search_separator"></div>
+                    
+                    <div class="select_group">
+                        <img class="iconPeople" src="img/index-search/people-search.svg" alt="">
+                        <select class="search_select" name="" id="">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5+</option>
+                        </select>
                     </div>
                 </div>
-
-
+                <div class="buttons">
+                    <div class="buttons_group">
+                        <div class="buttons_item">
+                            <button class="buttons-click" id="btn_search"></button>
+                        </div>
+                        <div class="buttons_item">
+                            <button class="buttons-click" id="btn_settings"></button>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
             </div>
+            
+        </main>
+        
+        
+        
+        
+        
+        
+        
+        <div class="container placeCard">
+            
+            <img class="imgtest" src="testcard.png" alt="">
+            <img class="imgtest" src="testcard.png" alt="">
+            <img class="imgtest" src="testcard.png" alt="">
+            <img class="imgtest" src="testcard.png" alt="">
+            <img class="imgtest" src="testcard.png" alt="">
+            <img class="imgtest" src="testcard.png" alt="">
+            <img class="imgtest" src="testcard.png" alt="">
+            <img class="imgtest" src="testcard.png" alt="">
+            
         </div>
-
-    </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="js/burger.js"></script>
-    <script src="js/curentDate.js"></script>
-
-</body>
-
-</html>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <script src="js/preloader.js"></script>
+        <script src="js/burger.js"></script>
+        <script src="js/curentDate.js"></script>
+        
+    </body>
+    
+    </html>
