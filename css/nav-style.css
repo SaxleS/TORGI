@@ -31,7 +31,7 @@ color: rgba(62, 146, 209, 1);
 #guid::before{
     content: " ";
     position: absolute;
-    background-image: url(../img/iconGuid.svg);
+    background-image: url(../img/nav/iconGuid.svg);
     width: 56px;
     height: 56px;
     left: -30px;
