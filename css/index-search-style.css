@@ -1,18 +1,18 @@
-@media (width <= 900px){
+/* @media (width <= 900px){
     .search_select, .search_date {
         width:150px ;
     }
     .search{
         flex-direction: column;
-        height: 400px;
-        width: 250px;
-        border-radius: 55px;
+        height: 450px;
+        width: 350px;
+        border-radius: 80px;
     }
     .search_separator {
         width: 70px;
         height: 1px;
     }
-}
+} */
 .row_search {
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@
 .search{
     z-index: 10;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content:space-evenly;
     gap: 0.5%;
     width: 85%;
@@ -68,11 +68,13 @@
     }
     .search{
         flex-direction: column;
-        height: 400px;
-        width: 250px;
-        border-radius: 55px;
+        height: 450px;
+        width: 350px;
+        border-radius: 80px;
+        padding-left: 20px;
     }
     .search_separator {
+        padding-right: 200px;
         width: 70px;
         height: 1px;
     }
