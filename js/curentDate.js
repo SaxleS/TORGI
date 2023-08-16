@@ -5,5 +5,6 @@ window.addEventListener('load',
   var day = d.getDate(); if (day<10) day='0'+day;
   var month = d.getMonth() + 1; if (month < 10 ) month='0'+month;
   var year = d.getFullYear(); 
-  document.getElementById("mydate").value = year+"-"+month+"-"+day;
+  document.getElementById("mydate").value = year + "-" + month + "-" + day;
+  document.getElementById("mydate2").value = year + "-" + month + "-" + day;
  }, false);

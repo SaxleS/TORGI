@@ -1,0 +1,197 @@
+:root{
+    --blue: #3E92D1;
+    --blueT: #CFEBF9;
+
+}
+
+
+
+
+
+
+.bodyCard {
+    max-width: 367px;
+    max-height: 590px;
+    margin: 10px 10px 50px 10px;
+}
+
+/* Контейнер карты*/
+.cardContainer {
+    flex-grow: 1;
+    position: relative;
+    width: 367px;
+    height: 590px;
+    filter: drop-shadow(0px 20px 40px rgba(53, 56, 61, 0.1));
+    border-radius: 80px;
+    background-color: #FFFFFF;
+
+}
+/* Часы*/
+.tableClock {
+
+    text-align: center;
+    z-index: 0;
+    font-weight: bold;
+    font-style: normal;
+    width: 367px;
+    height: 150px;
+    border-radius: 80px 80px 0 0;
+    background: rgba(255, 90, 64, 0.6);
+    backdrop-filter: blur(6px);
+    /* Note: backdrop-filter has minimal browser support */
+    margin: 0 0 273px 0;
+}
+.tableClock h2{
+    color: white;
+    padding: 2%;
+}
+/* Название*/
+.tableName {
+
+    display: flex;
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    top: 57px;
+    font-weight: bold;
+    font-style: normal;
+    width: 367px;
+    height: 95px;
+    border-radius: 80px 80px 0 0;
+    background: rgba(62, 146, 209, 0.3);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(7px);
+}
+.tableName h3 {
+
+    margin-top: 7%;
+    color: white;
+}
+.nameCard h3 {
+    position: absolute;
+    text-align: center;
+    left: 35%;
+
+}
+.rating img {
+    position: absolute;
+    text-align: center;
+    right: 10%;
+    top: 20%;
+
+}
+.ratingNumber h3 {
+    position: absolute;
+    text-align: center;
+    right: 16%;
+    top: 10%;
+}
+
+
+/* фото*/
+.tableImg {
+
+    z-index: 1;
+    position: absolute;
+    top: 57px;
+    font-weight: bold;
+    font-style: normal;
+    width: 367px;
+    height: 367px;
+    border-radius: 80px 80px 80px 80px;
+    background-color: antiquewhite;
+}
+/* Кнопка избранное*/
+.favoritButton{
+    z-index: 3;
+    border-radius: 100px;
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    top: 358px;
+    left: 154px;
+    background-color: white;
+}
+/* текст*/
+.tableText {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%; 
+    padding-top: 2%;
+}
+/* Текущий статус загрузки*/
+.progressBar > .tenderProgress{
+    margin: 0 0 1% 10%;
+    width: 280px;
+}
+
+.tableBarTop{
+    justify-content: space-between;
+    margin: 0 0 0 10%;
+    display: flex;
+    width: 280px;
+}
+.progressBar{
+    color: #3E92D1;
+}
+
+/*Выравнивание контейнеров */
+.nowPeople,
+.needPeople,
+.peopleGroupSVG,
+.PriceGroupSVG,
+.nowPrice,
+.needPrice {
+    width: 70px;
+    text-align: center;
+}
+
+.tableBarBottom{
+    justify-content: space-between;
+    margin: 0 0 0 10%;
+    display: flex;
+    width: 280px;
+}
+.heart {
+    background-color: red;
+    opacity: 25%;
+    display: inline-block;
+    height: 25px;
+    margin: 0 10px;
+    position: relative;
+    transform: rotate(-45deg);
+    left: 10%;
+    top: 35.5%;
+    width: 25px;
+}
+
+.heart:before,
+.heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 25px;
+    position: absolute;
+    width: 25px;
+}
+
+.heart:before {
+    top: -12.5px;
+    left: 0;
+}
+
+.heart:after {
+    left: 12.5px;
+    top: 0;
+}
+.heart:hover{
+    opacity: 100%;
+    filter: drop-shadow(0 0 2px rgba(255, 49, 49, 1));
+
+}
+.heart:active{
+    opacity: 100%;
+
+}
+
+

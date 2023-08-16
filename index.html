@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/preloader-style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/preloader-style.css"> -->
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <!-- <link rel="stylesheet" href="css/card-page-style.css"> -->
     <link rel="stylesheet" href="css/index-hero-style.css">
     <link rel="stylesheet" href="css/nav-style.css">
     <link rel="stylesheet" href="css/burger-style.css">
     <link rel="stylesheet" href="css/index-search-style.css">
-    <link rel="stylesheet" href="css/index-placeCard.css">
+    <link rel="stylesheet"  href="css/index-placeCard.css">
+    <link rel="stylesheet"  href="css/card-style.css">
     <title>TORGI</title>
 </head>
 
@@ -66,7 +66,96 @@
                 </section>
                 <section>
                     <div class="slider">
-                        <img class="imgtest" src="testcard.png" alt="">
+
+<!-- ---------------------------------------------------------------- -->
+
+
+
+
+
+
+
+
+        
+
+
+
+        <div class="bodyCard">
+            <div class="cardContainer ">
+                <div class="tableClock">
+                    <h2>7d•09h•23m</h2>
+                </div>
+                <div class="tableName">
+                    <div class="nameCard">
+                        <h3>Maldives</h3>
+                    </div>
+                    <div class="rating">
+                        <img src="img/Star.svg">
+                    </div>
+                    <div class="ratingNumber">
+                        <h3>5</h3>
+                    </div>
+
+                </div>
+                <div class="tableImg">
+                    <img src="img/Nature.png">
+                </div>
+                <div class="favoritButton">
+                    <div class="heart"></div>
+                </div>
+                <div class="tableText">
+                    <h6>Indian Ocean,&nbsp
+                    </h6>
+                    <h5>Maldives
+                    </h5>
+                </div>
+
+                <div class="progressBar">
+                    <div class="tableBarTop">
+                        <div class="nowPeople">
+                            <h5>73</h5>
+                        </div>
+                        <div class="peopleGroupSVG">
+                            <img src="img/peopleGroup.svg">
+                        </div>
+                        <div class="needPeople">
+                            <h5>100</h5>
+                        </div>
+                    </div>
+                    <progress class="tenderProgress" value="70" max="100"></progress>
+                    <div class="tableBarBottom">
+
+
+                        <div class="nowPrice">
+                            <h5>1500</h5>
+                        </div>
+                        <div class="PriceGroupSVG">
+                            <img src="img/Dol.svg">
+                        </div>
+                        <div class="needPrice">
+                            <h5>700</h5>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+<!-- ---------------------------------------------------------------- -->
+
+
+
+
+
+                        <!-- <img class="imgtest" src="testcard.png" alt=""> -->
                     </div>
                 </section>
             </div>
@@ -91,12 +180,12 @@
                     <div class="search_separator"></div>
                     <div class="select_group">
                         <img class="iconDate" src="img/index-search/date-search.svg" alt="">
-                        <input class="search_date" type="date" name="calendar">
+                        <input class="search_date" id="mydate" type="date" name="calendar">
                     </div>
                     <div class="search_separator"></div>
                     <div class="select_group">
                         <img class="iconDate" src="img/index-search/date-search.svg" alt="">
-                        <input class="search_date" type="date" name="calendar" value="25.09.1993">
+                        <input class="search_date" id="mydate2" type="date" name="calendar" >
                     </div>
                     <div class="search_separator"></div>
                     
@@ -156,10 +245,10 @@
         
         
         
-        <script src="js/preloader.js"></script>
         <script src="js/burger.js"></script>
         <script src="js/curentDate.js"></script>
         
+        <script src="js/preloader.js"></script>
     </body>
     
     </html>

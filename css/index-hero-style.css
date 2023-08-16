@@ -6,8 +6,8 @@
 }
 .slogan{
     font-size: 70px;
-    color: rgba(62, 146, 209, 1);
     max-width: 600px;
+    color: rgba(62, 146, 209, 1);
     /* white-space: nowrap; */
 }
 .description{
@@ -19,6 +19,8 @@
     display: flex;
     /* position: relative; */
     padding-top: 60px;
+    padding-right: 50px;
+    padding-bottom: 50px;
     gap: 5%;
     align-items: center;
     
@@ -53,7 +55,7 @@
 
 }
 
-@media (width <= 900px){
+@media (width <= 1000px){
     .hero{
         padding: 50px;
         display: flex;
