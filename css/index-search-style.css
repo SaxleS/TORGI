@@ -21,6 +21,7 @@
     align-items: center;
     gap: 1%;
     padding-bottom: 50px;
+    padding-top: 100px;
 }
 
 .search {
@@ -121,6 +122,9 @@ input[type=date]::-webkit-calendar-picker-indicator{
     .search_date {
         width: 150px;
     }
+    .row_search{
+        padding-top: 0px;
+    }
 
     .search {
         flex-direction: column;
@@ -128,6 +132,7 @@ input[type=date]::-webkit-calendar-picker-indicator{
         width: 350px;
         border-radius: 80px;
         padding-left: 20px;
+        
     }
 
     .search_separator {
