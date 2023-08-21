@@ -1,4 +1,4 @@
-:root{
+:root {
     --blue: #3E92D1;
     --blueT: #CFEBF9;
 
@@ -26,13 +26,13 @@
     background-color: #FFFFFF;
 
 }
+
 /* Часы*/
 .tableClock {
 
     text-align: center;
     z-index: 0;
-    font-weight: bold;
-    font-style: normal;
+
     width: 367px;
     height: 150px;
     border-radius: 80px 80px 0 0;
@@ -41,10 +41,12 @@
     /* Note: backdrop-filter has minimal browser support */
     margin: 0 0 273px 0;
 }
-.tableClock h2{
+
+.tableClock h2 {
     color: white;
     padding: 2%;
 }
+
 /* Название*/
 .tableName {
 
@@ -53,8 +55,7 @@
     z-index: 2;
     position: absolute;
     top: 57px;
-    font-weight: bold;
-    font-style: normal;
+
     width: 367px;
     height: 95px;
     border-radius: 80px 80px 0 0;
@@ -62,17 +63,20 @@
     mix-blend-mode: normal;
     backdrop-filter: blur(7px);
 }
+
 .tableName h3 {
 
     margin-top: 7%;
     color: white;
 }
+
 .nameCard h3 {
     position: absolute;
     text-align: center;
     left: 35%;
 
 }
+
 .rating img {
     position: absolute;
     text-align: center;
@@ -80,6 +84,7 @@
     top: 20%;
 
 }
+
 .ratingNumber h3 {
     position: absolute;
     text-align: center;
@@ -94,15 +99,15 @@
     z-index: 1;
     position: absolute;
     top: 57px;
-    font-weight: bold;
-    font-style: normal;
+
     width: 367px;
     height: 367px;
     border-radius: 80px 80px 80px 80px;
     background-color: antiquewhite;
 }
+
 /* Кнопка избранное*/
-.favoritButton{
+.favoritButton {
     z-index: 3;
     border-radius: 100px;
     width: 56px;
@@ -112,26 +117,29 @@
     left: 154px;
     background-color: white;
 }
+
 /* текст*/
 .tableText {
     display: flex;
     justify-content: center;
-    padding-bottom: 3%; 
+    padding-bottom: 3%;
     padding-top: 2%;
 }
+
 /* Текущий статус загрузки*/
-.progressBar > .tenderProgress{
+.progressBar>.tenderProgress {
     margin: 0 0 1% 10%;
     width: 280px;
 }
 
-.tableBarTop{
+.tableBarTop {
     justify-content: space-between;
     margin: 0 0 0 10%;
     display: flex;
     width: 280px;
 }
-.progressBar{
+
+.progressBar {
     color: #3E92D1;
 }
 
@@ -146,12 +154,13 @@
     text-align: center;
 }
 
-.tableBarBottom{
+.tableBarBottom {
     justify-content: space-between;
     margin: 0 0 0 10%;
     display: flex;
     width: 280px;
 }
+
 .heart {
     background-color: red;
     opacity: 25%;
@@ -184,14 +193,14 @@
     left: 12.5px;
     top: 0;
 }
-.heart:hover{
+
+.heart:hover {
     opacity: 100%;
     filter: drop-shadow(0 0 2px rgba(255, 49, 49, 1));
 
 }
-.heart:active{
+
+.heart:active {
     opacity: 100%;
 
 }
-
-

@@ -1,0 +1,21 @@
+@import url(../card/card-block-creator.css);
+@import url(../card/card-block-image.css);
+@import url(../card/card-block-nameTender.css);
+@import url(../card/card-block-wether.css);
+@import url(../card/card-block-rating.css);
+.display{
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+
+}
+.block_selection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid darkblue;
+}
+.block_item{
+    margin: 10px;
+    border: 2px solid black;
+}

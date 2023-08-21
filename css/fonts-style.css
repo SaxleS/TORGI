@@ -1,0 +1,76 @@
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
+
+.slogan {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+}
+.description {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+@media (width <= 1000px){
+    .slogan {
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        font-size: 60px;
+    }
+    .description {
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+    }
+
+}
+@media (width <= 600px){
+    .slogan {
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .description {
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+}
+
+
+
+/* h3 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 24px;
+}
+h5 {
+    font-size: 20px;
+}
+h6 {
+    font-size: 18px;
+    font-weight: normal;
+} */
+
+
+
+.menu_list-link{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 28px;
+}
+.btnJoin{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.btnQuestion{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight:400;
+}
+.search{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight:400;  
+}

@@ -1,0 +1,12 @@
+.block_image{
+    width: 540px;
+    height: 540px;
+    border-radius: 80px;
+    overflow: hidden;
+    border: 1px solid rebeccapurple;
+}
+.imageCard{
+    width: 540px;
+    height: 540px;
+    object-fit:fill;
+}
