@@ -1,0 +1,30 @@
+.block_info {
+    display: flex;
+
+    flex-direction: column;
+    width: 540px;
+    height: 1000px;
+    border-radius: 80px;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+}
+.block_info_selection_item{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+.block_info_selection-nameTender {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+}
+.block_info_selection-tenderDeskription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+.block_info_selection-servis{
+    padding-top: 20px;
+}

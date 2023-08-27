@@ -3,19 +3,25 @@
 @import url(../card/card-block-nameTender.css);
 @import url(../card/card-block-wether.css);
 @import url(../card/card-block-rating.css);
+@import url(../card/card-block-statusLarge.css);
+@import url(../card/card-block-curentPricePeople.css);
+@import url(../card/card-block-info.css);
 .display{
     display: flex;
     justify-content: center;
-    background-color: bisque;
+    /* background-color: bisque; */
+    flex-wrap: wrap;
+    
 
 }
 .block_selection{
     display: flex;
-    flex-wrap: wrap;
+    
     justify-content: center;
-    border: 1px solid darkblue;
+    /* border: 1px solid darkblue; */
 }
 .block_item{
     margin: 10px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    
 }

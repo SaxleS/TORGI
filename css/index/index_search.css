@@ -100,7 +100,7 @@ input[type=date]::-webkit-calendar-picker-indicator{
 
 #btn_search::before{
     position: absolute;
-    content: url(../img/index-search/search.svg);
+    content: url(/img/index-search/search.svg);
     width: 40px;
     height: 40px;
     left: 25px;
@@ -109,7 +109,7 @@ input[type=date]::-webkit-calendar-picker-indicator{
 }
 #btn_settings::before{
     position: absolute;
-    content: url(../img/index-search/settings.svg);
+    content: url(/img/index-search/settings.svg);
     width: 40px;
     height: 40px;
     left: 135px;
@@ -173,7 +173,7 @@ input[type=date]::-webkit-calendar-picker-indicator{
     }
     #btn_search::before{
         position: absolute;
-        content: url(../img/index-search/search.svg);
+        content: url(/img/index-search/search.svg);
         width: 40px;
         height: 40px;
         left: 80px;
@@ -182,7 +182,7 @@ input[type=date]::-webkit-calendar-picker-indicator{
     }
     #btn_settings::before{
         position: absolute;
-        content: url(../img/index-search/settings.svg);
+        content: url(/img/index-search/settings.svg);
         width: 40px;
         height: 40px;
         left: 50px;
