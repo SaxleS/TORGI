@@ -6,6 +6,8 @@
 @import url(../card/card-block-statusLarge.css);
 @import url(../card/card-block-curentPricePeople.css);
 @import url(../card/card-block-info.css);
+@import url(../card/card-block-voting.css);
+@import url(../card/card-block-footer.css);
 .display{
     display: flex;
     justify-content: center;

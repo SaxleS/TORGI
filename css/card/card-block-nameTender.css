@@ -1,6 +1,14 @@
 .nameCard{
     display: flex;
-    justify-content: flex-start;
-    gap: 1%;
-    margin: 100px 0 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin: 100px 0 50px;
+
+}
+
+.nameCard-text_separator{
+    width: 2px;
+    height: 55px;
+    background-color: #3E92D1;
 }

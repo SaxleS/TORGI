@@ -1,6 +1,6 @@
 .block_statusLarge{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width: 540px;
     height: 100px;

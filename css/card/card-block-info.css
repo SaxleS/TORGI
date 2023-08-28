@@ -1,11 +1,30 @@
-.block_info {
+.block_info_relevate{
+    position: relative;
     display: flex;
+    height: 1000px;
 
+}
+.block_info {
+    z-index: 3;
+    background-color: white;
+    display: flex;
     flex-direction: column;
+    width: 540px;
+    height: 500px;
+    border-radius: 80px;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+}
+.block_info_other{
+    background-color: white;
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0ch;
     width: 540px;
     height: 1000px;
     border-radius: 80px;
-    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);   
 }
 .block_info_selection_item{
     display: flex;
@@ -19,7 +38,7 @@
     justify-content: center;
     width: 250px;
 }
-.block_info_selection-tenderDeskription {
+.block_info_selection-tenderDescription {
     display: flex;
     align-items: center;
     justify-content: center;

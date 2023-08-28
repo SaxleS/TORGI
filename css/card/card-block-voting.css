@@ -1,0 +1,67 @@
+.block_voting{
+    display: flex;
+    flex-direction: column;
+
+    width: 550px;
+    height: 320px;
+    border-radius: 80px;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+}
+.votingAvatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: red;
+}
+.block_voting_selection_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+.block_voting_selection_topSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.block_voting_selection_topSection_item-nameDescription{
+    width: 300px;
+
+}
+.block_voting_selection_topSection_item-voting{
+    padding-top: 20px;
+}
+.block_voting_selection_bottom{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.selection_voting_bottom_btn{
+    padding-top: 30px;
+}
+.block_voting_selection_bottom_item-no,.block_voting_selection_bottom_item-yes{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 80px;
+}
+.block_voting_selection_bottom_item-no{
+    background-color:#FF5A40 ;
+}
+.block_voting_selection_bottom_item-identityNo::before{
+    position: absolute;
+    top: 2px;
+    left: 90px;
+    content: url(/img/card-block-voting/statusPeople.svg);
+}
+.block_voting_selection_bottom_item-yes{
+    background-color:#3CD070 ;
+}
+.block_voting_selection_bottom_item-identityYes::before{
+    position: absolute;
+    top: 2px;
+    left: 360px;
+    content: url(/img/card-block-voting/statusPeople.svg);
+}

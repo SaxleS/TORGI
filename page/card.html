@@ -47,13 +47,13 @@
             <div class="container">
                 <div class="nameCard">
                     <div class="nameCard_item">
-                        <div class="nameCard-text" id="nameTender">NameTender</div>
+                        <div class="nameCard-text nameTender" id="nameTender">NameTender</div>
                     </div>
                     <div class="nameCard_item">
-                        <div class="nameCard-text">|</div>
+                        <div class="nameCard-text nameCard-text_separator"></div>
                     </div>
                     <div class="nameCard_item">
-                        <div class="nameCard-text" id="dateAction">jul 8-19</div>
+                        <div class="nameCard-text dateAction" id="dateAction">jul 8-19</div>
                     </div>
                 </div>
 
@@ -71,7 +71,8 @@
                             <div class="block_creator">
                                 <div class="creator_item_info">
                                     <div class="creator_item_info_secelction secelction_person">
-                                        <div class="info_secelction-avatar"><img class="avatarPerson" src="#" alt="">
+                                        <div class="info_secelction-avatar"><img class="avatarPerson"
+                                                src="../testavatar.png" alt="">
                                         </div>
                                         <div class="info_secelction-namePerson">Valentina</div>
                                         <div class="info_secelction-categoryPerson">Creator tender</div>
@@ -79,8 +80,10 @@
                                     <div class="creator_item_info_secelction secelction_other">
                                         <div class="info_secelction-numbeReviews">14</div>
                                         <div class="info_secelction-reviews">Reviews</div>
+                                        <div class="info_secelction-separator"></div>
                                         <div class="info_secelction-numbeYears">4</div>
                                         <div class="info_secelction-years">Years</div>
+                                        <div class="info_secelction-separator"></div>
                                     </div>
                                 </div>
                                 <div class="creator_item_check">
@@ -174,8 +177,9 @@
                                 <div class="block_statusLarge_selection_right">
                                     <div class="block_statusLarge_selection_right_group">
                                         <div class="block_statusLarge_selection_right_item">50</div>
-                                        <div class="block_statusLarge_selection_right_item"><img
-                                                src="/img/card-statusLarge/groupPeople.svg" alt=""></div>
+                                        <div class="block_statusLarge_selection_right_item">
+                                            <img src="/img/card-statusLarge/groupPeople.svg" alt="">
+                                        </div>
                                         <div class="block_statusLarge_selection_right_item">100</div>
                                     </div>
                                     <div class="block_statusLarge_selection_right_group">
@@ -187,8 +191,9 @@
                                     </div>
                                     <div class="block_statusLarge_selection_right_group">
                                         <div class="block_statusLarge_selection_right_item">1800</div>
-                                        <div class="block_statusLarge_selection_right_item"><img
-                                                src="/img/card-statusLarge/price.svg" alt=""></div>
+                                        <div class="block_statusLarge_selection_right_item">
+                                            <img src="/img/card-statusLarge/price.svg" alt="">
+                                        </div>
                                         <div class="block_statusLarge_selection_right_item">1200</div>
                                     </div>
 
@@ -198,30 +203,43 @@
                     </div>
                     <div class="block_selection">
                         <div class="block_item">
-                            <div class="block_curent_price"></div>
+                            <div class="block_curent_price">
+                                <div class="block_curent_price_item-text">Now</div>
+                                <div class="block_curent_price_item-text">1800</div>
+                                <div class="block_curent_price_item-text"><img src="/img/card-statusLarge/price.svg"
+                                        alt=""></div>
+                            </div>
                         </div>
                     </div>
                     <div class="block_selection">
                         <div class="block_item">
-                            <div class="block_curent_people"></div>
+                            <div class="block_curent_people">
+                                <div class="block_curent_people_item-text">Now</div>
+                                <div class="block_curent_people_item-text">50</div>
+                                <div class="block_curent_people_item-text">
+                                    <img src="/img/card-statusLarge/groupPeople.svg" alt="">
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="block_selection">
                         <div class="block_item">
-                            <div class="block_btn_join"></div>
+                            <div class="block_btn_join"><button class="block_btn_join-click">Join</button></div>
                         </div>
                     </div>
                 </div>
+
+
                 <div class="display">
                     <div class="block_selection">
-                        <div class="block_item">
+                        <div class="block_item block_info_relevate">
                             <div class="block_info">
                                 <div class="block_info_selection">
                                     <div class="block_info_selection_item">
                                         <div class="block_info_selection-nameTender">NameTender</div>
                                     </div>
                                     <div class="block_info_selection_item">
-                                        <div class="block_info_selection-tenderDeskription">Lorem ipsum dolor sit amet
+                                        <div class="block_info_selection-tenderDescription">Lorem ipsum dolor sit amet
                                             consectetur, adipisicing elit. Rem nihil suscipit perspiciatis totam velit
                                             impedit harum amet, consectetur voluptatem magnam facilis voluptas soluta
                                             nam ut neque error expedita tempore distinctio numquam ipsa quis, adipisci
@@ -262,19 +280,68 @@
                                 <div class="block_info_selection"></div>
                                 <div class="block_info_selection"></div>
                             </div>
+                            <div class="block_info_other"></div>
                         </div>
                     </div>
-                </div>
+
+                    <div class="block_selection">
+                        <div class="block_item">
+                            <div class="block_voting">
+                                <div class="block_voting_selection_top">
+                                    <div class="block_voting_selection_topSection">
+                                        <div class="block_voting_selection_topSection_item"><img class="votingAvatar"
+                                                src="/textimg.png" alt=""></div>
+                                    </div>
+                                    <div class="block_voting_selection_topSection">
+                                        <div class="block_voting_selection_topSection_item">
+                                            <div class="block_voting_selection_topSection_item-voting">Voting</div>
+                                        </div>
+                                        <div class="block_voting_selection_topSection_item">
+                                            <div class="block_voting_selection_topSection_item-nameVoting">Lorem, ipsum
+                                                dolor.</div>
+                                        </div>
+                                        <div class="block_voting_selection_topSection_item">
+                                            <div class="block_voting_selection_topSection_item-nameDescription">Lorem
+                                                ipsum dolor sit amet consectetur adipisicing elit. Itaque, atque officia
+                                                delectus consectetur accusamus asperiores qui dolores excepturi beatae
+                                                ipsum amet numquam distinctio sed.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block_voting_selection_bottom selection_voting_bottom_btn">
+                                    <div class="block_voting_selection_bottom_item"><button
+                                            class="block_voting_selection_bottom_item-no">No</button></div>
+                                    <div class="block_voting_selection_bottom_item"><button
+                                            class="block_voting_selection_bottom_item-yes">Yes</button></div>
+                                </div>
+                                <div class="block_voting_selection_bottom">
+                                    <div class="block_voting_selection_bottom_item">
+                                        <div class="block_voting_selection_bottom_item-identityNo">2</div>
+                                    </div>
+                                    <div class="block_voting_selection_bottom_item">
+                                        <div class="block_voting_selection_bottom_item-identityYes">200</div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
 
 
 
 
 
-            </div>
+                    </div>
 
 
 
         </main>
+        <div class="container_footer">
+            <footer>
+                footer
+            </footer>
+        </div>
 
 
 
