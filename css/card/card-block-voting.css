@@ -55,7 +55,7 @@
     position: absolute;
     top: 2px;
     left: 90px;
-    content: url(/img/card-block-voting/statusPeople.svg);
+    content: url(../img/card-block-voting/statusPeople.svg);
 }
 .block_voting_selection_bottom_item-yes{
     background-color:#3CD070 ;
@@ -64,5 +64,5 @@
     position: absolute;
     top: 2px;
     left: 360px;
-    content: url(/img/card-block-voting/statusPeople.svg);
+    content: url(../img/card-block-voting/statusPeople.svg);
 }
