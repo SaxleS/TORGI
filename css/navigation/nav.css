@@ -30,7 +30,7 @@ a,.burger_list>li{
 #guid::before{
     content: " ";
     position: absolute;
-    background-image: url(../img/nav/iconGuid.svg);
+    background-image: url(/img/nav/iconGuid.svg);
     width: 56px;
     height: 56px;
     left: -30px;

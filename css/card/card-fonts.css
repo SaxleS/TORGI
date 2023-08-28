@@ -1,29 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
-.menu_list-link{
+
+.menu_list-link {
     font-family: 'DM Sans', sans-serif;
     font-size: 24px;
 }
-#day,#hourse,#minuts,#separatod{
+
+#day,
+#hourse,
+#minuts,
+#separatod {
     font-family: 'DM Sans', sans-serif;
     font-weight: 600;
     font-size: 32px;
 }
 
-.block_statusLarge_selection_right{
+.block_statusLarge_selection_right {
     font-family: 'DM Sans', sans-serif;
     font-weight: 300;
     font-size: 18px;
 }
-.dateAction{
+
+.dateAction {
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #3E92D1;
 }
-.nameTender{
+
+.nameTender {
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     font-size: 40px;
     color: #3E92D1;
 }
 
+
+
+
+
+/* wether */
+.block_wether_item-temperatureSymbol {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.block_wether_item-textTemperature,.block_wether_item_nameText-icon {
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.block_wether_item_temperature-value,.block_wether_item-date{
+    color: #FFF;
+text-align: center;
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.block_wether_item-temperatureSymbol{
+    color: #FFF;
+}
+.block_wether_item_temperatureAvage-value{
+    color: #FFF;
+text-align: center;
+font-family: DM Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.block_wether_item-temperature_avageSymbol{
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;  
+}
+
+
+/* wether */

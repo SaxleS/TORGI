@@ -1,6 +1,65 @@
 .block_wether{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 260px;
     height: 260px;
     border-radius: 80px;
+    background: url(/img/card-wether/wether-mild-background.png);
     box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+}
+.block_wether_item-icon{
+
+}
+.block_wether_item_temperature{
+    display: flex;
+    width: 35px;
+}
+.block_wether_item-date,.block_wether_item_wetherStatus{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block_wether_blur{
+    z-index: 0;
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    border-radius: 80px;
+    fill: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(15px);   
+}
+.block_wether_item{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.block_wether_item-separator{
+    width: 190px;
+    height: 1px;
+    background-color: #fff;
+    margin: 10px 0 10px 0;
+}
+.block_wether_item_selection{
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wetherDateIcon{
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    width: 70%;
+}
+.wetherTemperatureIcon{
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+    width: 70%;
 }
